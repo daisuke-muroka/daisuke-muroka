@@ -1,16 +1,14 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-    <img src="./assets/header.svg" alt="Daisuke Muroka — Anime-style header" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./header.svg" />
+  <img src="./header.svg" alt="Daisuke Muroka — Anime-style header with cute cats" />
+</picture>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/typing-dark.svg">
-    <img src="./assets/typing.svg" alt="Typing introduction" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./typing-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./typing.svg" />
+  <img src="./typing.svg" alt="Typing introduction with cute cats" />
+</picture>
 
 ---
 
