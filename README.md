@@ -1,15 +1,9 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-    <img src="./assets/header.svg" alt="Daisuke Muroka — Anime-style header" />
-  </picture>
+  <img src="./assets/header.svg" alt="Daisuke Muroka — Anime-style header" />
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/typing-dark.svg">
-    <img src="./assets/typing.svg" alt="Typing introduction" />
-  </picture>
+  <img src="./assets/typing.svg" alt="Typing introduction" />
 </p>
 
 ---
