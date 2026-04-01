@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- assets/typing.svg — Light typing with cats -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-label="Typing introduction with cats (light)">
+  <defs>
+    <linearGradient id="cardLight" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4f9ff"/>
+    </linearGradient>
+    <g id="mini-cat-light">
+      <ellipse rx="12" ry="10" fill="#fff1cc" stroke="#d28a4e" stroke-width="1.2"/>
+      <path d="M-6,-3 L-3,-12 L-0,-3 Z" fill="#fff1cc" stroke="#d28a4e" stroke-width="0.8"/>
+      <path d="M6,-3 L3,-12 L0,-3 Z" fill="#fff1cc" stroke="#d28a4e" stroke-width="0.8"/>
+      <ellipse rx="2.6" ry="3.8" cx="-4" cy="-1" fill="#213248"/><ellipse rx="2.6" ry="3.8" cx="4" cy="-1" fill="#213248"/>
+      <path d="M-2,5 Q0,8 2,5" stroke="#c07a4d" stroke-width="0.8" fill="none"/>
+    </g>
+  </defs>
+
+  <rect x="10" y="10" rx="14" ry="14" width="980" height="160" fill="url(#cardLight)" stroke="#e8f3ff"/>
+
+  <text x="56" y="46" font-family="Noto Sans, Roboto, Arial" font-size="18" fill="#0b2a3f" font-weight="800">Hello — I am</text>
+  <text x="56" y="68" font-family="Noto Sans, Roboto, Arial" font-size="13" fill="#d6478a" font-weight="700">A businessman who loves cats</text>
+
+  <g transform="translate(56,92)">
+    <rect id="caret" x="420" y="-18" width="3" height="20" fill="#d6478a">
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- line 1 -->
+    <g>
+      <text id="line1" x="0" y="0" font-family="Noto Sans, Roboto" font-size="16" fill="#0b2a3f" font-weight="700">Daisuke Muroka — Head of Corporate IT</text>
+      <mask id="m1"><rect x="0" y="-18" width="0" height="22" fill="white">
+        <animate attributeName="width" from="0" to="520" dur="2.6s" begin="0.2s" fill="freeze"/></rect></mask>
+      <rect x="0" y="-18" width="520" height="22" fill="#ffffff" mask="url(#m1)"/>
+      <!-- small cat pops near end -->
+      <g transform="translate(540,0)"><use href="#mini-cat-light"/><animateTransform attributeName="transform" type="translate" values="0,8; 0,-10; 0,8" dur="2.8s" repeatCount="indefinite" begin="2.8s"/></g>
+    </g>
+
+    <!-- line 2 -->
+    <g transform="translate(0,30)">
+      <text id="line2" x="0" y="0" font-family="Noto Sans, Roboto" font-size="14" fill="#405770">ISMS · Information Security · Identity & Automation</text>
+      <mask id="m2"><rect x="0" y="-18" width="0" height="22" fill="white">
+        <animate attributeName="width" from="0" to="520" dur="2.8s" begin="3.2s" fill="freeze"/></rect></mask>
+      <rect x="0" y="-18" width="520" height="22" fill="#ffffff" mask="url(#m2)"/>
+      <!-- kitten walks across while typing -->
+      <g transform="translate(-20,2)"><use href="#mini-cat-light" transform="scale(0.85)"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 64,-6; 128,0; 196,-8; 280,0" dur="4.6s" repeatCount="indefinite" begin="3.8s"/></g>
+    </g>
+
+    <!-- line 3 -->
+    <g transform="translate(0,60)">
+      <text id="line3" x="0" y="0" font-family="Noto Sans, Roboto" font-size="14" fill="#405770">I play with many cats — nurturing teams with gentle care.</text>
+      <mask id="m3"><rect x="0" y="-18" width="0" height="22" fill="white">
+        <animate attributeName="width" from="0" to="520" dur="2.6s" begin="6.4s" fill="freeze"/></rect></mask>
+      <rect x="0" y="-18" width="520" height="22" fill="#ffffff" mask="url(#m3)"/>
+      <!-- small group of kittens appears -->
+      <g transform="translate(460,2)"><g transform="translate(-6,0)"><use href="#mini-cat-light" transform="scale(0.8)"/></g><g transform="translate(24,2)"><use href="#mini-cat-light" transform="scale(0.9)"/></g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="3.0s" repeatCount="indefinite"/></g>
+    </g>
+
+    <!-- additional decorative cats: three that stroll near bottom -->
+    <g transform="translate(0,98)">
+      <g transform="translate(10,6)"><use href="#mini-cat-light"/><animateTransform attributeName="transform" type="translate" values="0,0; 46,-6; 92,0" dur="6.2s" repeatCount="indefinite" begin="1.6s"/></g>
+      <g transform="translate(200,8)"><use href="#mini-cat-light"/><animateTransform attributeName="transform" type="translate" values="0,0; 38,-6; 76,0" dur="5.6s" repeatCount="indefinite" begin="2.2s"/></g>
+      <g transform="translate(380,6)"><use href="#mini-cat-light"/><animateTransform attributeName="transform" type="translate" values="0,0; 56,-10; 112,0" dur="7.0s" repeatCount="indefinite" begin="2.8s"/></g>
+    </g>
+  </g>
+
+  <!-- light sparkles -->
+  <g transform="translate(920,36)"><path d="M0,-8 L2,-2 L8,0 L2,2 L0,8 L-2,2 L-8,0 L-2,-2 Z" fill="#ffe98a">
+    <animateTransform attributeName="transform" type="scale" values="0.7;1.1;0.7" dur="2.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></path></g>
+</svg>
