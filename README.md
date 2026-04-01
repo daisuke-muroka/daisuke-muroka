@@ -1,13 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/header.svg" />
-  <img src="./assets/header.svg" alt="Daisuke Muroka — Anime-style header with cute cats" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/typing-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/typing.svg" />
-  <img src="./assets/typing.svg" alt="Typing introduction with cute cats" />
+  <img src="./assets/header.svg" alt="Typing introduction with cute cats" />
 </picture>
 
 ---
@@ -43,3 +37,11 @@
 
 ## A little about me
 I love spending time with cats — a simple, patient practice that reminds me how small, consistent care compounds into strong, reliable systems. I bring that same attitude to building internal platforms and governance that teams actually use.
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer.svg" />
+  <img src="./assets/footer.svg" alt="Daisuke Muroka — Anime-style footer with cute cats" />
+</picture>
