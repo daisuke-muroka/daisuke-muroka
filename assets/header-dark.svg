@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- assets/header-dark.svg — Dark version with cute animated cats -->
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Cute cats header (dark mode)">
+<!-- assets/header-dark.svg  EDark version with cute animated cats -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Cute cats header (dark mode)">
   <defs>
     <!-- dark palette -->
     <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
@@ -152,7 +152,7 @@
   <!-- title -->
   <g transform="translate(72,84)">
     <text x="0" y="0" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="44" fill="#fff" font-weight="800" stroke="#000" stroke-opacity="0.06" stroke-width="0.6">Daisuke Muroka</text>
-    <text x="0" y="46" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="16" fill="#ffeef0">Head of Corporate IT — Corporate IT Division</text>
+    <text x="0" y="46" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="16" fill="#ffeef0">Head of Corporate IT  ECorporate IT Division</text>
   </g>
 
 
@@ -164,11 +164,11 @@
   <!-- Cat 1: Cream tabby - jumping playfully -->
   <g transform="translate(100,255)">
     <g>
-      <use href="#cat-cream" transform="scale(0.7)"/>
+      <use xlink:href="#cat-cream" transform="scale(0.7)"/>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-40; 0,-50; 0,-40; 0,0" dur="2.5s" repeatCount="indefinite" begin="0s"/>
     </g>
     <g transform="translate(18,-30)">
-      <use href="#heart" transform="scale(0.6)"/>
+      <use xlink:href="#heart" transform="scale(0.6)"/>
       <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="18,-30; 18,-50" dur="2.5s" repeatCount="indefinite"/>
     </g>
@@ -177,7 +177,7 @@
   <!-- Cat 2: Grey cat - rolling -->
   <g transform="translate(180,268)">
     <g>
-      <use href="#cat-grey" transform="scale(0.65)"/>
+      <use xlink:href="#cat-grey" transform="scale(0.65)"/>
       <animateTransform attributeName="transform" type="rotate" values="0 0 0; 15 0 0; -15 0 0; 10 0 0; -10 0 0; 0 0 0" dur="4s" repeatCount="indefinite" begin="0.5s"/>
     </g>
   </g>
@@ -185,7 +185,7 @@
   <!-- Cat 3: White cat - stretching -->
   <g transform="translate(240,252)">
     <g>
-      <use href="#cat-white" transform="scale(0.6)"/>
+      <use xlink:href="#cat-white" transform="scale(0.6)"/>
       <animateTransform attributeName="transform" type="scale" values="1,1; 1,0.8; 1,1.15; 1,1" dur="4.5s" repeatCount="indefinite" begin="1s"/>
     </g>
   </g>
@@ -193,11 +193,11 @@
   <!-- Cat 4: Calico - chasing yarn ball -->
   <g transform="translate(60,290)">
     <g>
-      <use href="#cat-calico" transform="scale(0.55)"/>
+      <use xlink:href="#cat-calico" transform="scale(0.55)"/>
       <animateTransform attributeName="transform" type="translate" values="0,0; 80,-10; 160,0; 220,-5; 260,0" dur="6s" repeatCount="indefinite" begin="0.3s"/>
     </g>
     <g transform="translate(40,-2)">
-      <use href="#yarn" transform="scale(0.6)"/>
+      <use xlink:href="#yarn" transform="scale(0.6)"/>
       <animateTransform attributeName="transform" type="translate" values="40,-2; 120,-14; 200,-2; 260,-8; 300,-2" dur="6s" repeatCount="indefinite" begin="0.3s"/>
     </g>
   </g>
@@ -205,7 +205,7 @@
   <!-- Cat 5: Cream - batting at butterfly -->
   <g transform="translate(700,230)">
     <g>
-      <use href="#cat-cream" transform="scale(0.65)"/>
+      <use xlink:href="#cat-cream" transform="scale(0.65)"/>
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 4,-20; 0,-8; 0,0" dur="3s" repeatCount="indefinite" begin="0.8s"/>
     </g>
     <g transform="translate(10,-40)">
@@ -222,11 +222,11 @@
   <!-- Cat 6: Cream cat - grooming (center-left) -->
   <g transform="translate(380,240)">
     <g>
-      <use href="#cat-cream" transform="scale(0.7)"/>
+      <use xlink:href="#cat-cream" transform="scale(0.7)"/>
       <animateTransform attributeName="transform" type="scale" values="1,1; 1.05,0.95; 1,1; 0.95,1.05; 1,1" dur="3.5s" repeatCount="indefinite"/>
     </g>
     <g transform="translate(0,-40)">
-      <use href="#heart" transform="scale(0.5)"/>
+      <use xlink:href="#heart" transform="scale(0.5)"/>
       <animate attributeName="opacity" values="0;0.8;0" dur="3.5s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="0,-40; 0,-55" dur="3.5s" repeatCount="indefinite"/>
     </g>
@@ -235,7 +235,7 @@
   <!-- Cat 7: White kitten - prancing (center) -->
   <g transform="translate(480,260)">
     <g>
-      <use href="#cat-white" transform="scale(0.6)"/>
+      <use xlink:href="#cat-white" transform="scale(0.6)"/>
       <animateTransform attributeName="transform" type="translate" values="0,0; 15,-25; 30,0; 15,-15; 0,0" dur="3.2s" repeatCount="indefinite" begin="0.4s"/>
     </g>
   </g>
@@ -243,7 +243,7 @@
   <!-- Cat 13: Calico - lying belly up (center) -->
   <g transform="translate(530,280)">
     <g>
-      <use href="#cat-calico" transform="scale(0.55) rotate(180)"/>
+      <use xlink:href="#cat-calico" transform="scale(0.55) rotate(180)"/>
       <animateTransform attributeName="transform" type="rotate" values="0 0 0; 5 0 0; -5 0 0; 0 0 0" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
     </g>
   </g>
@@ -251,7 +251,7 @@
   <!-- Cat 14: Grey kitten - big jump across center -->
   <g transform="translate(420,290)">
     <g>
-      <use href="#cat-grey" transform="scale(0.5)"/>
+      <use xlink:href="#cat-grey" transform="scale(0.5)"/>
       <animateTransform attributeName="transform" type="translate" values="0,0; 60,-50; 120,-60; 180,-40; 240,0" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
     </g>
   </g>
@@ -259,7 +259,7 @@
   <!-- Cat 15: Cream tiny kitten - curious peek -->
   <g transform="translate(600,250)">
     <g>
-      <use href="#cat-cream" transform="scale(0.45)"/>
+      <use xlink:href="#cat-cream" transform="scale(0.45)"/>
       <animateTransform attributeName="transform" type="translate" values="0,0; -5,-8; 0,-12; 5,-8; 0,0" dur="2.8s" repeatCount="indefinite" begin="2s"/>
     </g>
   </g>
@@ -267,20 +267,20 @@
   <!-- Cat 8: Calico kitten tumbling -->
   <g transform="translate(550,275)">
     <g>
-      <use href="#cat-calico" transform="scale(0.5)"/>
+      <use xlink:href="#cat-calico" transform="scale(0.5)"/>
       <animateTransform attributeName="transform" type="rotate" values="0 0 0; 360 0 0" dur="3s" repeatCount="indefinite" begin="1.2s"/>
     </g>
   </g>
 
   <!-- Cat 9: Grey sitting -->
   <g transform="translate(850,250)">
-    <use href="#cat-grey" transform="scale(0.65)"/>
+    <use xlink:href="#cat-grey" transform="scale(0.65)"/>
   </g>
 
   <!-- Cat 10: Cream pouncing -->
   <g transform="translate(950,260)">
     <g>
-      <use href="#cat-cream" transform="scale(0.6)"/>
+      <use xlink:href="#cat-cream" transform="scale(0.6)"/>
       <animateTransform attributeName="transform" type="translate" values="0,0; -30,-35; -60,0; -30,-20; 0,0" dur="4s" repeatCount="indefinite" begin="0.6s"/>
     </g>
   </g>
@@ -288,7 +288,7 @@
   <!-- Cat 11: White sleeping -->
   <g transform="translate(1060,275)">
     <g>
-      <use href="#cat-white" transform="scale(0.55)"/>
+      <use xlink:href="#cat-white" transform="scale(0.55)"/>
       <animateTransform attributeName="transform" type="scale" values="1,1; 1.03,1.03; 1,1" dur="3s" repeatCount="indefinite"/>
     </g>
     <g transform="translate(20,-20)">
@@ -306,18 +306,18 @@
   <!-- Cat 12: Tiny calico kitten -->
   <g transform="translate(620,285)">
     <g>
-      <use href="#cat-calico" transform="scale(0.4)"/>
+      <use xlink:href="#cat-calico" transform="scale(0.4)"/>
       <animateTransform attributeName="transform" type="translate" values="0,0; 10,-15; 20,0; 10,-10; 0,0" dur="3.5s" repeatCount="indefinite" begin="1.5s"/>
     </g>
   </g>
 
   <!-- Floating paw prints -->
   <g opacity="0.2">
-    <g transform="translate(80,310)"><use href="#paw" transform="scale(0.8) rotate(-15)"/></g>
-    <g transform="translate(140,300)"><use href="#paw" transform="scale(0.7) rotate(10)"/></g>
-    <g transform="translate(780,305)"><use href="#paw" transform="scale(0.8) rotate(-5)"/></g>
-    <g transform="translate(880,300)"><use href="#paw" transform="scale(0.7) rotate(20)"/></g>
-    <g transform="translate(1100,310)"><use href="#paw" transform="scale(0.6) rotate(-10)"/></g>
+    <g transform="translate(80,310)"><use xlink:href="#paw" transform="scale(0.8) rotate(-15)"/></g>
+    <g transform="translate(140,300)"><use xlink:href="#paw" transform="scale(0.7) rotate(10)"/></g>
+    <g transform="translate(780,305)"><use xlink:href="#paw" transform="scale(0.8) rotate(-5)"/></g>
+    <g transform="translate(880,300)"><use xlink:href="#paw" transform="scale(0.7) rotate(20)"/></g>
+    <g transform="translate(1100,310)"><use xlink:href="#paw" transform="scale(0.6) rotate(-10)"/></g>
   </g>
 
   <!-- sakura petals -->
@@ -339,27 +339,27 @@
   <!-- Floating hearts -->
   <g>
     <g transform="translate(200,180)">
-      <use href="#heart" transform="scale(0.5)"/>
+      <use xlink:href="#heart" transform="scale(0.5)"/>
       <animate attributeName="opacity" values="0;0.7;0" dur="4s" repeatCount="indefinite" begin="1s"/>
       <animateTransform attributeName="transform" type="translate" values="200,180; 203,150" dur="4s" repeatCount="indefinite" begin="1s"/>
     </g>
     <g transform="translate(550,170)">
-      <use href="#heart" transform="scale(0.4)"/>
+      <use xlink:href="#heart" transform="scale(0.4)"/>
       <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" repeatCount="indefinite" begin="2s"/>
       <animateTransform attributeName="transform" type="translate" values="550,170; 553,140" dur="3.5s" repeatCount="indefinite" begin="2s"/>
     </g>
     <g transform="translate(800,175)">
-      <use href="#heart" transform="scale(0.6)"/>
+      <use xlink:href="#heart" transform="scale(0.6)"/>
       <animate attributeName="opacity" values="0;0.8;0" dur="5s" repeatCount="indefinite" begin="0s"/>
       <animateTransform attributeName="transform" type="translate" values="800,175; 798,140" dur="5s" repeatCount="indefinite" begin="0s"/>
     </g>
     <g transform="translate(400,190)">
-      <use href="#heart" transform="scale(0.45)"/>
+      <use xlink:href="#heart" transform="scale(0.45)"/>
       <animate attributeName="opacity" values="0;0.7;0" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
       <animateTransform attributeName="transform" type="translate" values="400,190; 402,155" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
     </g>
     <g transform="translate(1000,185)">
-      <use href="#heart" transform="scale(0.35)"/>
+      <use xlink:href="#heart" transform="scale(0.35)"/>
       <animate attributeName="opacity" values="0;0.6;0" dur="3.8s" repeatCount="indefinite" begin="2.5s"/>
       <animateTransform attributeName="transform" type="translate" values="1000,185; 1002,155" dur="3.8s" repeatCount="indefinite" begin="2.5s"/>
     </g>
@@ -367,17 +367,17 @@
 
   <!-- sparkles -->
   <g transform="translate(1080,36)">
-    <use href="#spark" transform="scale(0.9)"><animateTransform attributeName="transform" type="scale" values="0.9;1.4;0.9" dur="2.6s" repeatCount="indefinite"/></use>
+    <use xlink:href="#spark" transform="scale(0.9)"><animateTransform attributeName="transform" type="scale" values="0.9;1.4;0.9" dur="2.6s" repeatCount="indefinite"/></use>
   </g>
   <g transform="translate(1020,80)">
-    <use href="#spark" transform="scale(0.6)"><animateTransform attributeName="transform" type="scale" values="0.6;1.0;0.6" dur="3.2s" repeatCount="indefinite" begin="1s"/></use>
+    <use xlink:href="#spark" transform="scale(0.6)"><animateTransform attributeName="transform" type="scale" values="0.6;1.0;0.6" dur="3.2s" repeatCount="indefinite" begin="1s"/></use>
   </g>
   <g transform="translate(60,300)">
-    <use href="#spark" transform="scale(0.5)"><animateTransform attributeName="transform" type="scale" values="0.5;0.9;0.5" dur="2.8s" repeatCount="indefinite" begin="0.5s"/></use>
+    <use xlink:href="#spark" transform="scale(0.5)"><animateTransform attributeName="transform" type="scale" values="0.5;0.9;0.5" dur="2.8s" repeatCount="indefinite" begin="0.5s"/></use>
   </g>
 
   <!-- footer caption -->
   <text x="72" y="332" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="13" fill="#ffeef0">
-    Corporate IT Division — Nurturing internal foundations with the warmth of everyday moments.
+    Corporate IT Division  ENurturing internal foundations with the warmth of everyday moments.
   </text>
 </svg>
